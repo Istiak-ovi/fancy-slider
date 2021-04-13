@@ -19,11 +19,11 @@ let lastSetDuration = 0;
 // to create your own api key
 const KEY = '15674931-a9d714b6e9d654524df198e00&q';
 
-// show images 
+//show images 
 const showImages = (images) => {
   imagesArea.style.display = 'block';
   gallery.innerHTML = '';
-  // show gallery title
+  //show gallery title
   galleryHeader.style.display = 'flex';
   images.forEach(image => {
     let div = document.createElement('div');
